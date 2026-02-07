@@ -81,7 +81,7 @@ window.$docsify = {
     function(hook, vm) {
       hook.beforeEach(function(html) {
         var url =
-          'https://github.com/docsifyjs/docsify/blob/master/docs/' +
+          'https://github.com/iSharkFly-Docs/docsify-docs/tree/master/docs/' +
           vm.route.file;
         var editHtml = '[📝 EDIT DOCUMENT](' + url + ')\n';
 
