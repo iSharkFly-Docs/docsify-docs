@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/docsify-docs-cn.iml" filepath="$PROJECT_DIR$/docsify-docs-cn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/docsify-docs.iml" filepath="$PROJECT_DIR$/docsify-docs.iml" />
     </modules>
   </component>
 </project>
