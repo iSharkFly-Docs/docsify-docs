@@ -17,8 +17,11 @@
             const scriptID = "_adsense_js";
             const sidebarEl = document.querySelector(".sidebar-nav");
 
+
             if (!adEl && sidebarEl) {
                 let scriptEl = document.querySelector(`#${scriptID}`);
+                let scriptIns = document.querySelector(`#${scriptID}`);
+                let scriptAdPush = document.querySelector(`#${scriptID}`);
 
                 if (scriptEl) {
                     scriptEl = scriptEl.parentNode.removeChild(scriptEl);
@@ -27,10 +30,27 @@
                     scriptEl.src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${caPub}`;
                     scriptEl.async = "async";
                     scriptEl.id = scriptID;
+                    scriptEl.crossOrigin = "anonymous";
+
+                    scriptIns = document.createElement("ins");
+                    scriptIns.className = `adsbygoogle`;
+                    scriptIns.style = `display:block`;
+                    scriptIns.setAttribute("data-ad-client", "ca-pub-4797644559430915");
+                    scriptIns.setAttribute("data-ad-slot", "4417932244");
+                    scriptIns.setAttribute("data-ad-format", "auto");
+                    scriptIns.setAttribute("data-full-width-responsive", true);
+
+                    scriptAdPush = document.createElement("script");
+                    scriptAdPush.text = "(adsbygoogle = window.adsbygoogle || []).push({});";
+
                 }
 
                 sidebarEl.insertBefore(scriptEl, sidebarEl.firstChild);
+                sidebarEl.insertBefore(scriptIns, sidebarEl.lastChild);
+                sidebarEl.insertBefore(scriptAdPush, sidebarEl.lastChild);
             }
+
+
         },
 
         injectCarbonStyle() {
@@ -50,9 +70,13 @@
             sans-serif;
         }
 
-        #carbonads a {
-          color: inherit;
-          text-decoration: none;
+        #carbonads ins {
+          class="adsbygoogle";
+     style="display:block";
+     data-ad-client="ca-pub-4797644559430915";
+     data-ad-slot="3324230529";
+     data-ad-format="auto";
+     data-full-width-responsive="true";
         }
 
         #carbonads a:hover {
