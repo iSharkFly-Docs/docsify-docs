@@ -1,18 +1,18 @@
 (function(window) {
     window.DocsifyAds = {
-        create(caPub) {
+        create(caPub, slot) {
             return function(hook, vm) {
                 hook.ready(function() {
                     window.DocsifyAds.injectCarbonStyle();
                 });
 
                 hook.doneEach(function() {
-                    window.DocsifyAds.injectScript(caPub);
+                    window.DocsifyAds.injectScript(caPub, slot);
                 });
             };
         },
 
-        injectScript(caPub) {
+        injectScript(caPub, slot) {
             const adEl = document.querySelector("#adsense");
             const scriptID = "_adsense_js";
             const sidebarEl = document.querySelector(".sidebar-nav");
@@ -35,8 +35,8 @@
                     scriptIns = document.createElement("ins");
                     scriptIns.className = `adsbygoogle`;
                     scriptIns.style = 'display:inline-block;width:300px;height:150px';
-                    scriptIns.setAttribute("data-ad-client", "ca-pub-4797644559430915");
-                    scriptIns.setAttribute("data-ad-slot", "1781911644");
+                    scriptIns.setAttribute("data-ad-client", `${caPub}`);
+                    scriptIns.setAttribute("data-ad-slot", `${caPub}`);
 
                     scriptAdPush = document.createElement("script");
                     scriptAdPush.text = "(adsbygoogle = window.adsbygoogle || []).push({});";
