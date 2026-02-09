@@ -36,7 +36,7 @@
                     scriptIns.className = `adsbygoogle`;
                     scriptIns.style = 'display:inline-block;width:300px;height:150px';
                     scriptIns.setAttribute("data-ad-client", `${caPub}`);
-                    scriptIns.setAttribute("data-ad-slot", `${caPub}`);
+                    scriptIns.setAttribute("data-ad-slot", `${slot}`);
 
                     scriptAdPush = document.createElement("script");
                     scriptAdPush.text = "(adsbygoogle = window.adsbygoogle || []).push({});";
