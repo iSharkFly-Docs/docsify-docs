@@ -47,8 +47,6 @@
                 sidebarEl.insertBefore(scriptIns, sidebarEl.lastChild);
                 sidebarEl.insertBefore(scriptAdPush, sidebarEl.lastChild);
             }
-
-
         },
 
         injectCarbonStyle() {
