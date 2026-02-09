@@ -90,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1716613044992</updated>
       <workItem from="1770483844428" duration="453000" />
-      <workItem from="1770641739752" duration="9981000" />
+      <workItem from="1770641739752" duration="10449000" />
     </task>
     <task id="LOCAL-00001" summary="更新編輯按鈕">
       <option name="closed" value="true" />
@@ -132,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770646708279</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="调试 Google 广告">
+      <option name="closed" value="true" />
+      <created>1770653711582</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1770653711582</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

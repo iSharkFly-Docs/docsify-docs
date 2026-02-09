@@ -34,11 +34,9 @@
 
                     scriptIns = document.createElement("ins");
                     scriptIns.className = `adsbygoogle`;
-                    scriptIns.style = `display:block`;
+                    scriptIns.style = 'display:inline-block;width:300px;height:150px';
                     scriptIns.setAttribute("data-ad-client", "ca-pub-4797644559430915");
-                    scriptIns.setAttribute("data-ad-slot", "4417932244");
-                    scriptIns.setAttribute("data-ad-format", "auto");
-                    scriptIns.setAttribute("data-full-width-responsive", true);
+                    scriptIns.setAttribute("data-ad-slot", "1781911644");
 
                     scriptAdPush = document.createElement("script");
                     scriptAdPush.text = "(adsbygoogle = window.adsbygoogle || []).push({});";
