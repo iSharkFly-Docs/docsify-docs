@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa3ca596-285f-4ed7-a3a4-7b1482493fd4" name="Changes" comment="跟更新插件">
+    <list default="true" id="fa3ca596-285f-4ed7-a3a4-7b1482493fd4" name="Changes" comment="撤回调用路径">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
     </list>
@@ -91,7 +91,7 @@
       <updated>1716613044992</updated>
       <workItem from="1770483844428" duration="453000" />
       <workItem from="1770641739752" duration="21039000" />
-      <workItem from="1770820914453" duration="1221000" />
+      <workItem from="1770820914453" duration="1811000" />
     </task>
     <task id="LOCAL-00001" summary="更新編輯按鈕">
       <option name="closed" value="true" />
@@ -181,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770821017415</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="撤回调用路径">
+      <option name="closed" value="true" />
+      <created>1770826829231</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1770826829231</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +203,7 @@
     <MESSAGE value="Add slot" />
     <MESSAGE value="格式化代码" />
     <MESSAGE value="跟更新插件" />
-    <option name="LAST_COMMIT_MESSAGE" value="跟更新插件" />
+    <MESSAGE value="撤回调用路径" />
+    <option name="LAST_COMMIT_MESSAGE" value="撤回调用路径" />
   </component>
 </project>
