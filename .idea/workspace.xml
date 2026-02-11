@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa3ca596-285f-4ed7-a3a4-7b1482493fd4" name="Changes" comment="撤回调用路径">
+    <list default="true" id="fa3ca596-285f-4ed7-a3a4-7b1482493fd4" name="Changes" comment="更新使用 0.0.5 的版本">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
     </list>
@@ -91,7 +91,7 @@
       <updated>1716613044992</updated>
       <workItem from="1770483844428" duration="453000" />
       <workItem from="1770641739752" duration="21039000" />
-      <workItem from="1770820914453" duration="1811000" />
+      <workItem from="1770820914453" duration="5252000" />
     </task>
     <task id="LOCAL-00001" summary="更新編輯按鈕">
       <option name="closed" value="true" />
@@ -189,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770826829231</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="更新使用 0.0.5 的版本">
+      <option name="closed" value="true" />
+      <created>1770827413622</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1770827413622</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +212,7 @@
     <MESSAGE value="格式化代码" />
     <MESSAGE value="跟更新插件" />
     <MESSAGE value="撤回调用路径" />
-    <option name="LAST_COMMIT_MESSAGE" value="撤回调用路径" />
+    <MESSAGE value="更新使用 0.0.5 的版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新使用 0.0.5 的版本" />
   </component>
 </project>
